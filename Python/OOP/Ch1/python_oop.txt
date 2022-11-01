@@ -1,0 +1,12 @@
+Files from course: https://www.linkedin.com/learning/python-object-oriented-programming/
+
+Learning objectives:
+
+- Defining classes
+- Checking instance types
+- Using multiple inheritance
+- Creating objects with composition
+- Leveraging magic methods
+- Calling objects like functions
+- Defining data classes
+- Creating immutable data classes
