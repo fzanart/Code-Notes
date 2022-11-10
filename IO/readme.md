@@ -10,7 +10,7 @@ text_file = [line.rstrip() for line in text_file]
 Alternatively:
 
 ```python
-text_file
+text_file = []
 whith open('path/to/file.txt', encoding='utf-8') as f:
     for line in f:
         text_file.append(f.readline().rstrip())
