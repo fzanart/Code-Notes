@@ -16,3 +16,8 @@ whith open('path/to/file.txt', encoding='utf-8') as f:
         text_file.append(f.readline().rstrip())
 ```
 
+Also, normaly text requiere to be splited:
+
+```python
+text_file = [line.split(' ') for line in text_file]
+```
