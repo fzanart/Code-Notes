@@ -11,7 +11,14 @@ import matplotlib.pyplot as plt
 fig, ax1 = plt.subplots()
 
 # set fig size, more than one plot in the fig:
-fig, ax = plt.subplots(2,2,figsize=(15, 15))
+fig, axes = plt.subplots(2,2,figsize=(15, 15))
+
+# You can also unpack the axes in the subplots call
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2, sharex=True, sharey=True)
+
+# Or:
+fig, axes = plt.subplots(nrows=2, ncols=2, sharex=True, sharey=True)
+ax1, ax2, ax3, ax4 = axes.flatten()
 ```
    2.1 Create secondary axis 
 ```python
