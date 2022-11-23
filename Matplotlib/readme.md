@@ -1,5 +1,5 @@
 # Working with Matplotlib
-
+All the basic stuff from: [Matplotlib Quick start guide][1]
 ### 1. Import Library:
 
 ```python
@@ -36,3 +36,6 @@ ax2 = ax1.twinx()
 ```
 plt.show()
 ```
+
+
+[1]: <https://matplotlib.org/stable/tutorials/introductory/quick_start.html> "quick start"
