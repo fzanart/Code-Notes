@@ -26,8 +26,8 @@ First thing first, these are the configurable logging levels:
 ### Simplest version:
 ```python
 import logging
-logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
-logging.warning('is when this event was logged.')
+logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p', level=logging.INFO)
+logging.info('is when this event was logged.')
 ```
 Will print something like:
 ```
