@@ -8,17 +8,17 @@ Create simple examples for the following 3 scenarios:
 - [ ] More complex
  Load a configuration file with log on-screen and log file + json style log.
 
-First thing first, these are the configurable logging levels:
+First thing first, these are the configurable logging levels and their applicability:
 
 <div align="center">
 
-| Level      | Numeric value |
-| :---       |    :---:      |
-| CRITICAL   |     50        |
-| ERROR      |     40        |
-| WARNING    |     30        |
-| INFO       |     20        |
-| DEBUG      |     10        |
+| Level      | Numeric value | When it’s used |
+| :---       |    :---:      | :--- |
+| CRITICAL   |     50        | A serious error, indicating that the program itself may be unable to continue running. |
+| ERROR      |     40        | Due to a more serious problem, the software has not been able to perform some function. |
+| WARNING    |     30        | An indication that something unexpected happened, or indicative of some problem in the near future (e.g. ‘disk space low’). The software is still working as expected. |
+| INFO       |     20        | Confirmation that things are working as expected. |
+| DEBUG      |     10        | Detailed information, typically of interest only when diagnosing problems. |
 | NOTSET     |      0        |
 
 </div>
