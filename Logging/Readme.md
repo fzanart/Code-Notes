@@ -56,7 +56,7 @@ logging.basicConfig(level=logging.INFO,
                     filename='log_file.log',
                     filemode='x')
 ```
-This log_file then can be read as follows:
+Then, this log_file can be read as follows:
 
 ```python
 import pandas as pd
