@@ -64,7 +64,7 @@ import re
 import ast
 
 with open('log_file.log', encoding='utf-8') as f:
-    text_file = " ".join(line.strip() for line in f)
+    text_file = " ".join(line.strip() for line in f). # Necessary in case there are newline (\n) characters in the message
     
 items = re.findall(r'\{[^}]*\}', text_file)
 items = [ast.literal_eval(item) for item in items]
