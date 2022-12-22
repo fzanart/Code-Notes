@@ -56,6 +56,21 @@ logging.basicConfig(level=logging.INFO,
                     filename='log_file.log',
                     filemode='x')
 ```
+This log_file then can be read as follows:
+
+```python
+import pandas as pd
+import re
+import ast
+
+with open('log_file.log', encoding='utf-8') as f:
+    text_file = " ".join(line.strip() for line in f)
+    
+items = re.findall(r'\{[^}]*\}', text_file)
+items = [ast.literal_eval(item) for item in items]
+items = pd.DataFrame(items)
+items
+```
 
 ### More complex: work in progress
 
