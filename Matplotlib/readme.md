@@ -26,17 +26,18 @@ ax2 = ax1.twinx()
 ```
 ### 3. Type of plots
 
-   3.1 Line: ```ax.plot(x, y)```  
+   3.1 Line: ```ax.plot(x, y, label='label')```  
    3.2 Scatter  
-   3.3 Bar ```ax.bar(x,y)```   
+   3.3 Bar ```ax.bar(x,y, label='label')```   
 
 ### 4. Basic colors:
 
-### 5. Set title, axes names:
+### 5. Set title, axes names, legend:
    ```python
    ax.set_title('Title')
    ax.set_xlabel('X data')
    ax.set_ylabel('Y1 data', color='g')
+   ax.legend() # reads from label parameter
    ```
 ### 6. Plot
 
