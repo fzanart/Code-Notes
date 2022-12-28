@@ -1,5 +1,13 @@
 # Working with Matplotlib
 All the basic stuff from: [Matplotlib Quick start guide][1]
+
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/72897210/209741318-8986040a-68c3-4b5a-843f-d6b1c4f9ca54.png" />
+</p>
+
+
+
 ### 1. Import Library:
 
 ```python
