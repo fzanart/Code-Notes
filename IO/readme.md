@@ -1,7 +1,7 @@
 ### Reading all text lines striping newlines \n:
 
 ```python
-whith open('path/to/file.txt', encoding='utf-8') as f:
+with open('path/to/file.txt', encoding='utf-8') as f:
     text_file = f.readlines()
     
 text_file = [line.rstrip() for line in text_file]  
