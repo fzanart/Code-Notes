@@ -14,6 +14,7 @@
 
 **Extra notes:**  
 
-To get a list of current sessions: `tmux ls`  
-To enter into a session: `tmux attach-session -t <session-name>`  
-To kill a particular session: `tmux kill-session -t <session-name>`  
+Get a list of current sessions: `tmux ls`  
+Enter into a session: `tmux attach-session -t <session-name>`  
+Kill a particular session: `tmux kill-session -t <session-name>`  
+Momentarily strore passphrase: `eval $(ssh-agent)` then `ssh-add /path/to/credentials`
