@@ -80,20 +80,20 @@ You can keep your app in sync with your GitHub repository using GitHub Actions. 
    Rename Branches Locally:
    
    ```bash
-   git branch -m master newfeaturebranch
-   git branch -m feature1 master
+   git branch -m main newfeaturebranch
+   git branch -m feature1 main
    ```
    
    Push Changes to Remote:
    
    ```bash
-   git push -uf origin master
+   git push -uf origin main
    git push -u origin newfeaturebranch
    ```  
    
    If necessary, adjust tracking branches:
    
    ```bash
-   git branch -u origin/master master
+   git branch -u origin/main main
    git branch -u origin/newfeaturebranch newfeaturebranch
    ```
